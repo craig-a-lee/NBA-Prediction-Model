@@ -1,0 +1,124 @@
+{
+    "Jaden McDaniels": {
+        "ev": [],
+        "actual": [],
+        "predicted": [],
+        "line": [],
+        "date": []
+    },
+    "Stephen Curry": {
+        "ev": [
+            0.3059189720812916
+        ],
+        "actual": [],
+        "predicted": [
+            23.191349154219647
+        ],
+        "line": [
+            26.5
+        ],
+        "date": [
+            "05/04/2025"
+        ]
+    },
+    "Jaylen Brown": {
+        "ev": [
+            0.4169052210787729
+        ],
+        "actual": [],
+        "predicted": [
+            24.632177825450153
+        ],
+        "line": [
+            20.5
+        ],
+        "date": [
+            "05/05/2025"
+        ]
+    },
+    "Derrick White": {
+        "ev": [
+            -0.0053625842045122996
+        ],
+        "actual": [],
+        "predicted": [
+            15.341527988001125
+        ],
+        "line": [
+            14.5
+        ],
+        "date": [
+            "05/05/2025"
+        ]
+    },
+    "Shai Gilgeous-Alexander": {
+        "ev": [],
+        "actual": [],
+        "predicted": [],
+        "line": [],
+        "date": []
+    },
+    "Nikola Jokic": {
+        "ev": [],
+        "actual": [],
+        "predicted": [],
+        "line": [],
+        "date": []
+    },
+    "Michael Porter Jr.": {
+        "ev": [],
+        "actual": [],
+        "predicted": [],
+        "line": [],
+        "date": []
+    },
+    "Jalen Brunson": {
+        "ev": [],
+        "actual": [],
+        "predicted": [],
+        "line": [],
+        "date": []
+    },
+    "Karl-Anthony Towns": {
+        "ev": [],
+        "actual": [],
+        "predicted": [],
+        "line": [],
+        "date": []
+    },
+    "Myles Turner": {
+        "ev": [],
+        "actual": [],
+        "predicted": [],
+        "line": [],
+        "date": []
+    },
+    "Donovan MitchellEvan Mobley": {
+        "ev": [],
+        "actual": [],
+        "predicted": [],
+        "line": [],
+        "date": []
+    },
+    "Kawhi Leonard": {
+        "ev": [],
+        "actual": [],
+        "predicted": [],
+        "line": [],
+        "date": []
+    },
+    "Jalen Green": {
+        "ev": [],
+        "actual": [],
+        "predicted": [],
+        "line": [],
+        "date": []
+    },
+    "Anthony Edwards": {
+        "ev": [],
+        "actual": [],
+        "predicted": [],
+        "line": [],
+        "date": []
+    }
+}

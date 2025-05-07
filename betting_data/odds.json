@@ -1,0 +1,475 @@
+{
+  "Shai Gilgeous-Alexander": {
+    "date": "05/05/2025",
+    "over": {
+      "line": 28.5,
+      "price": 1.69
+    },
+    "under": {
+      "line": 28.5,
+      "price": 2.14
+    }
+  },
+  "Jamal Murray": {
+    "date": "05/05/2025",
+    "over": {
+      "line": 21.5,
+      "price": 1.71
+    },
+    "under": {
+      "line": 21.5,
+      "price": 2.1
+    }
+  },
+  "Jalen Williams": {
+    "date": "05/05/2025",
+    "over": {
+      "line": 18.5,
+      "price": 2.05
+    },
+    "under": {
+      "line": 18.5,
+      "price": 1.74
+    }
+  },
+  "Donovan Mitchell": {
+    "date": "05/06/2025",
+    "over": {
+      "line": 27.5,
+      "price": 1.77
+    },
+    "under": {
+      "line": 27.5,
+      "price": 2.0
+    }
+  },
+  "Pascal Siakam": {
+    "date": "05/06/2025",
+    "over": {
+      "line": 18.5,
+      "price": 1.77
+    },
+    "under": {
+      "line": 18.5,
+      "price": 2.0
+    }
+  },
+  "Tyrese Haliburton": {
+    "date": "05/06/2025",
+    "over": {
+      "line": 18.5,
+      "price": 1.83
+    },
+    "under": {
+      "line": 18.5,
+      "price": 1.91
+    }
+  },
+  "Darius Garland": {
+    "date": "05/06/2025",
+    "over": {
+      "line": 17.5,
+      "price": 1.8
+    },
+    "under": {
+      "line": 17.5,
+      "price": 1.95
+    }
+  },
+  "Evan Mobley": {
+    "date": "05/06/2025",
+    "over": {
+      "line": 17.5,
+      "price": 1.87
+    },
+    "under": {
+      "line": 17.5,
+      "price": 1.87
+    }
+  },
+  "Ty Jerome": {
+    "date": "05/06/2025",
+    "over": {
+      "line": 14.5,
+      "price": 1.87
+    },
+    "under": {
+      "line": 14.5,
+      "price": 1.87
+    }
+  },
+  "Myles Turner": {
+    "date": "05/06/2025",
+    "over": {
+      "line": 13.5,
+      "price": 1.83
+    },
+    "under": {
+      "line": 13.5,
+      "price": 1.91
+    }
+  },
+  "De'Andre Hunter": {
+    "date": "05/06/2025",
+    "over": {
+      "line": 13.5,
+      "price": 1.95
+    },
+    "under": {
+      "line": 13.5,
+      "price": 1.8
+    }
+  },
+  "Aaron Nesmith": {
+    "date": "05/06/2025",
+    "over": {
+      "line": 12.5,
+      "price": 1.8
+    },
+    "under": {
+      "line": 12.5,
+      "price": 1.95
+    }
+  },
+  "Jarrett Allen": {
+    "date": "05/06/2025",
+    "over": {
+      "line": 12.5,
+      "price": 1.8
+    },
+    "under": {
+      "line": 12.5,
+      "price": 1.95
+    }
+  },
+  "Andrew Nembhard": {
+    "date": "05/06/2025",
+    "over": {
+      "line": 12.5,
+      "price": 1.91
+    },
+    "under": {
+      "line": 12.5,
+      "price": 1.83
+    }
+  },
+  "Max Strus": {
+    "date": "05/06/2025",
+    "over": {
+      "line": 10.5,
+      "price": 1.87
+    },
+    "under": {
+      "line": 10.5,
+      "price": 1.87
+    }
+  },
+  "Bennedict Mathurin": {
+    "date": "05/06/2025",
+    "over": {
+      "line": 9.5,
+      "price": 1.8
+    },
+    "under": {
+      "line": 9.5,
+      "price": 1.95
+    }
+  },
+  "T.J. McConnell": {
+    "date": "05/06/2025",
+    "over": {
+      "line": 6.5,
+      "price": 1.87
+    },
+    "under": {
+      "line": 6.5,
+      "price": 1.87
+    }
+  },
+  "Obi Toppin": {
+    "date": "05/06/2025",
+    "over": {
+      "line": 6.5,
+      "price": 2.0
+    },
+    "under": {
+      "line": 6.5,
+      "price": 1.77
+    }
+  },
+  "Sam Merrill": {
+    "date": "05/06/2025",
+    "over": {
+      "line": 6.5,
+      "price": 2.1
+    },
+    "under": {
+      "line": 6.5,
+      "price": 1.71
+    }
+  },
+  "Anthony Edwards": {
+    "date": "05/06/2025",
+    "over": {
+      "line": 28.5,
+      "price": 1.91
+    },
+    "under": {
+      "line": 28.5,
+      "price": 1.83
+    }
+  },
+  "Stephen Curry": {
+    "date": "05/06/2025",
+    "over": {
+      "line": 26.5,
+      "price": 1.8
+    },
+    "under": {
+      "line": 26.5,
+      "price": 1.95
+    }
+  },
+  "Jimmy Butler": {
+    "date": "05/06/2025",
+    "over": {
+      "line": 22.5,
+      "price": 1.91
+    },
+    "under": {
+      "line": 22.5,
+      "price": 1.83
+    }
+  },
+  "Julius Randle": {
+    "date": "05/06/2025",
+    "over": {
+      "line": 20.5,
+      "price": 1.87
+    },
+    "under": {
+      "line": 20.5,
+      "price": 1.87
+    }
+  },
+  "Jaden McDaniels": {
+    "date": "05/06/2025",
+    "over": {
+      "line": 13.5,
+      "price": 1.8
+    },
+    "under": {
+      "line": 13.5,
+      "price": 1.95
+    }
+  },
+  "Brandin Podziemski": {
+    "date": "05/06/2025",
+    "over": {
+      "line": 11.5,
+      "price": 1.8
+    },
+    "under": {
+      "line": 11.5,
+      "price": 1.95
+    }
+  },
+  "Donte DiVincenzo": {
+    "date": "05/06/2025",
+    "over": {
+      "line": 10.5,
+      "price": 1.83
+    },
+    "under": {
+      "line": 10.5,
+      "price": 1.91
+    }
+  },
+  "Rudy Gobert": {
+    "date": "05/06/2025",
+    "over": {
+      "line": 10.5,
+      "price": 1.87
+    },
+    "under": {
+      "line": 10.5,
+      "price": 1.87
+    }
+  },
+  "Naz Reid": {
+    "date": "05/06/2025",
+    "over": {
+      "line": 9.5,
+      "price": 1.77
+    },
+    "under": {
+      "line": 9.5,
+      "price": 2.0
+    }
+  },
+  "Buddy Hield": {
+    "date": "05/06/2025",
+    "over": {
+      "line": 9.5,
+      "price": 1.95
+    },
+    "under": {
+      "line": 9.5,
+      "price": 1.8
+    }
+  },
+  "Draymond Green": {
+    "date": "05/06/2025",
+    "over": {
+      "line": 8.5,
+      "price": 2.0
+    },
+    "under": {
+      "line": 8.5,
+      "price": 1.77
+    }
+  },
+  "Moses Moody": {
+    "date": "05/06/2025",
+    "over": {
+      "line": 7.5,
+      "price": 2.0
+    },
+    "under": {
+      "line": 7.5,
+      "price": 1.77
+    }
+  },
+  "Mike Conley": {
+    "date": "05/06/2025",
+    "over": {
+      "line": 6.5,
+      "price": 2.0
+    },
+    "under": {
+      "line": 6.5,
+      "price": 1.77
+    }
+  },
+  "Nickeil Alexander-Walker": {
+    "date": "05/06/2025",
+    "over": {
+      "line": 5.5,
+      "price": 1.8
+    },
+    "under": {
+      "line": 5.5,
+      "price": 1.95
+    }
+  },
+  "Gary Payton II": {
+    "date": "05/06/2025",
+    "over": {
+      "line": 5.5,
+      "price": 1.87
+    },
+    "under": {
+      "line": 5.5,
+      "price": 1.87
+    }
+  },
+  "Jayson Tatum": {
+    "date": "05/07/2025",
+    "over": {
+      "line": 28.5,
+      "price": 1.83
+    },
+    "under": {
+      "line": 28.5,
+      "price": 1.91
+    }
+  },
+  "Jalen Brunson": {
+    "date": "05/07/2025",
+    "over": {
+      "line": 26.5,
+      "price": 1.83
+    },
+    "under": {
+      "line": 26.5,
+      "price": 1.91
+    }
+  },
+  "Jaylen Brown": {
+    "date": "05/07/2025",
+    "over": {
+      "line": 21.5,
+      "price": 1.87
+    },
+    "under": {
+      "line": 21.5,
+      "price": 1.87
+    }
+  },
+  "Karl-Anthony Towns": {
+    "date": "05/07/2025",
+    "over": {
+      "line": 18.5,
+      "price": 1.91
+    },
+    "under": {
+      "line": 18.5,
+      "price": 1.83
+    }
+  },
+  "OG Anunoby": {
+    "date": "05/07/2025",
+    "over": {
+      "line": 17.5,
+      "price": 1.87
+    },
+    "under": {
+      "line": 17.5,
+      "price": 1.87
+    }
+  },
+  "Derrick White": {
+    "date": "05/07/2025",
+    "over": {
+      "line": 16.5,
+      "price": 1.95
+    },
+    "under": {
+      "line": 16.5,
+      "price": 1.8
+    }
+  },
+  "Mikal Bridges": {
+    "date": "05/07/2025",
+    "over": {
+      "line": 13.5,
+      "price": 1.83
+    },
+    "under": {
+      "line": 13.5,
+      "price": 1.91
+    }
+  },
+  "Josh Hart": {
+    "date": "05/07/2025",
+    "over": {
+      "line": 12.5,
+      "price": 1.83
+    },
+    "under": {
+      "line": 12.5,
+      "price": 1.91
+    }
+  },
+  "Jrue Holiday": {
+    "date": "05/07/2025",
+    "over": {
+      "line": 10.5,
+      "price": 1.83
+    },
+    "under": {
+      "line": 10.5,
+      "price": 1.91
+    }
+  }
+}
