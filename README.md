@@ -8,6 +8,4 @@ Th tehcnical stack
 - Matplot
 - Numpy
 - Odds API
-- NBA API
-
-View my bets [here](https://docs.google.com/spreadsheets/d/1MT4LUQ6BGzql3oe-yWvkDmvoRYvIt8FRO8CNzMLIT0Y/edit?usp=sharing). 
+- NBA API 
