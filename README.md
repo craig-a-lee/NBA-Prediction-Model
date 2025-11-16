@@ -8,7 +8,7 @@ Setting up Environment:
 1. You will need to request an API from [the odds api](https://the-odds-api.com/) for draftking queries
 2. Place this in your .env file. API_KEY="{KEY}"
 3. Set up a virual environment
-4. Run pip install nba_api numpy pandas catboost matplotlib scipy sklearn
+4. Run pip install nba_api numpy pandas catboost matplotlib scipy sklearn dotenv
    
 Necessary Tech
 - Python >= 3.10  
