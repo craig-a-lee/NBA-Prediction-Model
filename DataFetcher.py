@@ -1,8 +1,8 @@
 from dateutil.utils import today
 from nba_api.stats.static import players
 from nba_api.stats.static import teams
-from nba_api.stats.endpoints import PlayerGameLogs
-from nba_api.stats.endpoints import playergamelog, teamgamelog, leaguegamelog
+from nba_api.stats.endpoints import PlayerGameLogs, LeagueGameFinder
+from nba_api.stats.endpoints import playergamelog, leaguegamelog
 from nba_api.stats.endpoints import ScoreboardV2
 from nba_api.stats.endpoints import BoxScoreTraditionalV2, CommonTeamRoster, teamestimatedmetrics
 import pandas as pd
@@ -27,7 +27,7 @@ class DataFetcher:
     FEATURES = ['HOME', 'REST', 'FORM_PTS', 'FORM_FG2A', 'FORM_FG3A',
                 'FORM_FTA', 'FG2_PCT', 'FG3_PCT', 'FT_PCT', 'FORM_MIN',
                 'OPP_PACE', 'OPP_DEF_RATING' ]
-    def __init__(self, season="2024-25", season_type="Playoffs"):
+    def __init__(self, season="2025-26", season_type="Regular Season"):
         self.season = season
         self.season_type = season_type
 
@@ -218,19 +218,29 @@ class DataFetcher:
 
     def get_opponent_def_rating_avg(self, opponent_id, game_date, num_games):
         """
-        Calculate the opponent's average of their defensive rating in the last few games
-        :param opponent_id: id of opponent
-        :param game_date: date of game
-        :param num_games: number of games to consider
-        :return: calculated defensive rating or None if data is missing
-        """
-        game_logs = teamgamelog.TeamGameLog(team_id=opponent_id, season='2024-25').get_data_frames()[0]
+        Calculate the opponent's average defensive rating over their last few games.
 
+        :param opponent_id: ID of the opponent team
+        :param game_date: datetime of the game to look back from
+        :param num_games: number of past games to consider
+        :return: average defensive rating, or None if no games found
+        """
+        # Fetch all games for the opponent in the season
+        lgf = LeagueGameFinder(
+            team_id_nullable=opponent_id,
+            season='2025-26',
+            season_type_nullable='Regular Season'
+        )
+        game_logs = lgf.get_data_frames()[0]
+
+        # Ensure dates are datetime objects
         game_logs['GAME_DATE'] = pd.to_datetime(game_logs['GAME_DATE'])
 
-        past_games = game_logs[game_logs['GAME_DATE'] < game_date]
+        # Filter only games before the given date
+        past_games = game_logs[game_logs['GAME_DATE'] < pd.to_datetime(game_date)]
 
         if not past_games.empty:
+            # Take last `num_games` and calculate average defensive rating
             games = past_games.tail(num_games)
             avg_def_rating = games['DEF_RATING'].mean()
             return avg_def_rating
@@ -328,6 +338,7 @@ class DataFetcher:
         """
         metrics_df = teamestimatedmetrics.TeamEstimatedMetrics(season=self.season).get_data_frames()[0]
         time.sleep(1)
+        team_name = 'LA Clippers' if team_name == 'Los Angeles Clippers' else team_name
         return metrics_df[metrics_df['TEAM_NAME'] == team_name]
 
     def get_team_players(self, team_name):

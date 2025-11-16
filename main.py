@@ -103,6 +103,6 @@ def get_highest_evs_tonight(certainty_line=0.9):
         print(df)
 
 if __name__=="__main__":
-    visualize_player_outcomes("Rudy Gobert")
-    # refresh_data_files()
-    # get_highest_evs_tonight()
+    visualize_player_outcomes("John Collins")
+    #refresh_data_files(["Christian Braun", "Miles McBride"], 5)
+    #get_highest_evs_tonight()

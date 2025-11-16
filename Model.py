@@ -85,7 +85,7 @@ class Model:
             for feature in self.stds:
                 if feature not in constant_features:
                     std = self.stds[feature]
-                    noisy_input[feature] += np.random.normal(0, std)
+                    noisy_input[feature] = np.maximum(np.random.normal(0, std) + noisy_input[feature], 0)
             pred = self.model.predict(noisy_input)
             simulations.append(pred)
         return simulations
